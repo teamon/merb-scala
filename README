@@ -1,0 +1,5 @@
+run with: 
+<code>
+$ rake scala:compile
+$ bin/merb
+</code>

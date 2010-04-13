@@ -16,6 +16,9 @@ end
  
 Merb::BootLoader.before_app_loads do
   # This will get executed after dependencies have been loaded but before your app's classes have loaded.
+  module ScalaModels
+    include_package "app.models"
+  end
 end
  
 Merb::BootLoader.after_app_loads do

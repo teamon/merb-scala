@@ -7,6 +7,4 @@ merb_gems_version = "1.1.0"
 gem "json_pure", ">= 1.1.7", :require => "json"
 gem "merb-core", merb_gems_version
 
-
-
-
+gem "mongrel"
